@@ -1,0 +1,129 @@
+body {
+    background: url(./House\ 1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    color: orange;
+    font-size: 100px;
+    font-weight: bolder;
+    float: left;
+    padding-left: 20px;
+}
+.menu {
+    width: 500px;
+    height: 100px;
+    float: right;
+
+}
+ul {
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+}
+ul li {
+    list-style: none;
+    font-size: 30px;
+    padding-top: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: white ;
+    font-weight: bold;
+    margin: 30px;
+}
+ul li a:hover{
+    background: orange;
+    border-radius: 5px;
+}
+p {
+    float: right;
+    width: 500px;
+    color: white;
+    margin-top: 200px;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,0.8)50%,rgba(0, 0, 0, 0.8)50%) ;
+    border-radius: 10px;
+}
+.form {
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: -700px;
+    padding: 20px;
+}
+
+input {
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+}
+
+.submit {
+    float: left;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+}
+
+.submit a {
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: orange;
+    width: 200px;
+    height: 30px;
+    border: 3px;
+    border-radius: 10px;
+    margin-top: 480px;
+    margin-left: -700px;
+    cursor: pointer;
+    float: left;
+}
+.btn a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+.btn:hover {
+    background-color:white;
+}
+.bttn {
+    background-color: orange;
+    width: 200px;
+    height: 30px;
+    border: 3px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: 480px;
+    margin-left: -400px;
+    cursor: pointer;
+    float: left;
+}
+
+.bttn a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bttn:hover {
+    background-color: white;
+}
+
